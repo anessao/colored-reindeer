@@ -15,13 +15,13 @@ var listItem = "";
 for (var i = 0; i < colors.length; i++) {
 	// var test = colors[i] + " " + reindeer[k]
 	if (k < 8) {
-		var test = colors[i] + " " + reindeer[k]
+		var combined = colors[i] + " " + reindeer[k]
 		k++;
 	} else {
-		test = colors[i] + " " + reindeer[j]
+		combined = colors[i] + " " + reindeer[j]
 		j++
 	}
-	colorReindeer.push(test);
+	colorReindeer.push(combined);
 }
 
 for (var r = 0; r < colorReindeer.length; r++) {
